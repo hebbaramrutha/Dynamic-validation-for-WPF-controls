@@ -1,0 +1,479 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib"
+                    xmlns:local="clr-namespace:DynamicValidations">
+
+    <system:Double x:Key="BaseTextBoxHeight">25</system:Double>
+    <Thickness x:Key="BaseErrorBorderThickness">0.5</Thickness>
+    <Thickness x:Key="BaseErrorTooltipBorderThickness">0.5</Thickness>
+    <system:Double x:Key="BaseTextBoxWidth">180</system:Double>
+    <system:Double x:Key="BaseReadOnlyLabelHieght">30</system:Double>
+    <system:Double x:Key="BaseFontSize">12</system:Double>
+    <system:Double x:Key="BaseLinkButtonFontSize">14</system:Double>
+    <Thickness x:Key="BaseBorderThickness">1</Thickness>
+    <FontFamily x:Key="BaseFontFamily">Segoe UI</FontFamily>
+
+
+    <Color x:Key="PrimaryColor">#FF3D506F</Color>
+    <Color x:Key="ButtonBackground">#FFDBE0E6</Color>
+    <Color x:Key="ColorBlue">#FF057DBD</Color>
+    <Color x:Key="HeadingBlueColor">#224A91</Color>
+
+    <SolidColorBrush x:Key="PrimaryColorBrush" Color="{StaticResource PrimaryColor}" />
+    <SolidColorBrush x:Key="SecondaryColorBrush" Color="#FF516382"/>
+    <SolidColorBrush x:Key="LightBlueBrush" Color="#FFDCE0E6"/>
+    <SolidColorBrush x:Key="ToolbarBrush" Color="#FF4D4D4D"/>
+    <SolidColorBrush x:Key="LightTextBrush" Color="#FFFFFFFF"/>
+    <SolidColorBrush x:Key="DarkTextBrush" Color="#FF000000"/>
+    <SolidColorBrush x:Key="OrangeTextBrush" Color="#FFE94E1B"/>
+    <SolidColorBrush x:Key="TextBoxNormalBrush" Color="#FFF0F0F0"/>
+    <SolidColorBrush x:Key="TextBoxReadOnlyBrush" Color="#FFDCE0E6"/>
+    <SolidColorBrush x:Key="FilterActiveBrush" Color="Yellow"/>
+    <SolidColorBrush x:Key="SearchSelectedBrush" Color="#FF783500"/>
+    <SolidColorBrush x:Key="GreenFocusBrush" Color="#FF54A81B"/>
+    <SolidColorBrush x:Key="FocusBrush" Color="#FF516382"/>
+    <SolidColorBrush x:Key="LinkedProgramBrush" Color="#E5951D"/>
+    <SolidColorBrush x:Key="TransparentBrush" Color="Transparent"/>
+    <SolidColorBrush x:Key="GridReadOnlyBrush" Color="#FFF0F0F0"/>
+    <SolidColorBrush x:Key="TextBoxLightForegroundBrush" Color="Black"/>
+    <SolidColorBrush x:Key="TextBoxBackgroundBrush" Color="#FFF"/>
+    <SolidColorBrush x:Key="ButtonBackgroundBrush" Color="{StaticResource ButtonBackground}"/>
+    <SolidColorBrush x:Key="ButtonBackgroundClickBrush" Color="#FFB8C1CC"/>
+    <SolidColorBrush x:Key="ButtonDisabledBrush" Color="#FFD5D5D5"/>
+    <SolidColorBrush x:Key="ButtonDisabledTextBrush" Color="#FF969696"/>
+    <SolidColorBrush x:Key="TextBoxBorderBrush" Color="#DDDEDF"/>
+    <SolidColorBrush x:Key="WMTextBlockBrush" Color="#DDD"/>
+    <SolidColorBrush x:Key="WhiteBackgroundBrush" Color="#FFF"/>
+    <SolidColorBrush x:Key="BaseButtonForegroundBrush" Color="#0C51A1"></SolidColorBrush>
+    <SolidColorBrush x:Key="PositiveButtonBackgroundBrush" Color="#FF0D4FA1"/>
+    <SolidColorBrush x:Key="PositiveButtonWithWhiteBackground" Color="White"/>
+    <SolidColorBrush x:Key="PositiveButtonBorderBrush" Color="#FF0D4FA1"/>
+    <SolidColorBrush x:Key="PositiveForegroundBrush" Color="White"/>
+    <SolidColorBrush x:Key="PositiveButtonWithWhiteBackgroundForegroundBrush" Color="#FF0D4FA1"/>
+    <SolidColorBrush x:Key="NegativeButtonBackgroundBrush" Color="White"/>
+    <SolidColorBrush x:Key="NegetiveButtonTriggerBackgroundBrush" Color="Red"/>
+    <SolidColorBrush x:Key="NegetiveButtonTriggerForegroundBrush" Color="White"/>
+    <SolidColorBrush x:Key="NegativeButtonBorderBrush" Color="Red"/>
+    <SolidColorBrush x:Key="NegativeForegroundBrush" Color="Red"/>
+    <SolidColorBrush x:Key="LabelBackgroundBrush" Color="#FFFBFBFB"/>
+    <SolidColorBrush x:Key="LabelForeGroundBrush" Color="#666"/>
+    <SolidColorBrush x:Key="LabelBorderBrush" Color="#EEE"/>
+    <SolidColorBrush x:Key="HeadingBorderBrush" Color="#F2F9FB"/>
+    <SolidColorBrush x:Key="ChangePasswordForeColor" Color="#767676"/>
+    <SolidColorBrush x:Key="ExpanderBackgroundBrush" Color="#FFFBFBFB"/>
+    <SolidColorBrush x:Key="ComboBoxBackgroundBrush" Color="White"/>
+
+    <SolidColorBrush x:Key="CarnationBrush" Color="#FFF15C69"/>
+    <SolidColorBrush x:Key="SteelBlueBrush" Color="#FF3B72B3"/>
+    <SolidColorBrush x:Key="AquaSprintBrush" Color="#FFF2F9FB"/>
+    <SolidColorBrush x:Key="LocahmaraBrush" Color="#FF057DBD"/>
+    <SolidColorBrush x:Key="DodgerBlueBrush" Color="#FF4D4DFF"/>
+    <SolidColorBrush x:Key="BaseTextBrush" Color="#00000000" />
+    <SolidColorBrush x:Key="BrushSelectedRowBackground" Color="#FFF0F8FA" />
+    <SolidColorBrush x:Key="BrushSelectedRowHorizontalGridLines" Color="#FFE5E5E5" />
+    <SolidColorBrush x:Key="BrushGridTextForeground" Color="#FF333333" />
+    <SolidColorBrush x:Key="BrushGridBackground" Color="#FFE1E1E1"/>
+    <SolidColorBrush x:Key="BrushBlue" Color="{StaticResource ColorBlue}" />
+
+    <SolidColorBrush x:Key="CrimsonRedBrush" Color="#ED1E30"/>
+    <SolidColorBrush x:Key="MineShaftBrush" Color="#333333"/>
+    <SolidColorBrush x:Key="SilverChaliceBrush" Color="#A0A0A0"/>
+    <SolidColorBrush x:Key="GreyBrush" Color="#A8A8A8"/>
+    <SolidColorBrush x:Key="BrushTabControlBlue" Color="#FF0D51A2"/>
+    <SolidColorBrush x:Key="BrushWhite" Color="White"/>
+    <SolidColorBrush x:Key="LightGreyText" Color="#6F6F6F"/>
+    <SolidColorBrush x:Key="ErrorBorderBrush" Color="Red"/>
+    <SolidColorBrush x:Key="ErrorTooltipBackgroundBrush" Color="White"/>
+    <SolidColorBrush x:Key="ErrorTooltipForegroundBrush" Color="Red"/>
+    <SolidColorBrush x:Key="ErrorPolygonFillBrush" Color="Red"/>
+    <SolidColorBrush x:Key="BlueHeading" Color="{StaticResource HeadingBlueColor}"/>
+    <LinearGradientBrush x:Key="ListHeaderGridBrush" StartPoint="0.5 0" EndPoint="0.5 1">
+        <GradientStop Color="#5E5E5C" Offset="0" />
+        <GradientStop Color="#6F706E" Offset="0.25" />
+        <GradientStop Color="#5E5E5C" Offset="1" />
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="OptionMark.MouseOver.Background" Color="#FFF3F9FF"/>
+    <SolidColorBrush x:Key="OptionMark.MouseOver.Border" Color="#FF5593FF"/>
+    <SolidColorBrush x:Key="OptionMark.MouseOver.Glyph" Color="#00b22d"/>
+    <SolidColorBrush x:Key="OptionMark.Disabled.Background" Color="#FFE6E6E6"/>
+    <SolidColorBrush x:Key="OptionMark.Disabled.Border" Color="#FFBCBCBC"/>
+    <SolidColorBrush x:Key="OptionMark.Disabled.Glyph" Color="#00b22d"/>
+    <SolidColorBrush x:Key="OptionMark.Pressed.Background" Color="#FFD9ECFF"/>
+    <SolidColorBrush x:Key="OptionMark.Pressed.Border" Color="#FF3C77DD"/>
+    <SolidColorBrush x:Key="OptionMark.Pressed.Glyph" Color="#00b22d"/>
+    <SolidColorBrush x:Key="OptionMark.Static.Glyph" Color="#00b22d"/>
+    <SolidColorBrush x:Key="OptionMark.Static.Background" Color="#FFFFFFFF"/>
+    <SolidColorBrush x:Key="OptionMark.Static.Border" Color="#FF707070"/>
+
+
+    <Style TargetType="{x:Type TextBox}"
+           x:Key="BaseTextBoxStyle">
+        <Setter Property="FontWeight"
+                Value="Normal" />
+        <Setter Property="FontSize"
+                Value="{StaticResource BaseFontSize}" />
+        <Setter Property="Background"
+                Value="{StaticResource TextBoxBackgroundBrush}" />
+        <Setter Property="FontFamily"
+                Value="{StaticResource BaseFontFamily}" />
+        <Setter Property="Height"
+                Value="{StaticResource BaseTextBoxHeight}" />
+        <Setter Property="Width"
+                Value="{StaticResource BaseTextBoxWidth}" />
+        <Setter Property="BorderThickness"
+                Value="{StaticResource BaseBorderThickness}" />
+        <Setter Property="BorderBrush"
+                Value="{StaticResource GreyBrush}" />
+        <Setter Property="Padding"
+                Value="1.5" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type TextBox}">
+                    <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+                        <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="Validation.HasError" Value="true">
+                            <Setter Property="ToolTip" Value="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}"/>
+                            <Setter Property="Tag" Value="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property = "BorderBrush" TargetName="border"  Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                        </Trigger>
+                        <Trigger Property="IsFocused" Value="true">
+                            <Setter Property = "BorderBrush" TargetName="border"  Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid>
+                        <AdornedElementPlaceholder x:Name="adorner">
+                            <Border BorderBrush="{StaticResource ErrorBorderBrush}"
+                                    BorderThickness="{StaticResource BaseErrorBorderThickness}" />
+                        </AdornedElementPlaceholder>
+                        <Polygon Fill="{StaticResource ErrorPolygonFillBrush}"
+                                 Margin="0,2,2,0"
+                                 Points="10,10 10,0 0,0"
+                                 VerticalAlignment="Top"
+                                 HorizontalAlignment="Right" >
+                        </Polygon>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Resources>
+            <Style TargetType="{x:Type Border}">
+                <Setter Property="CornerRadius"
+                        Value="3" />
+            </Style>
+            <Style x:Key="{x:Type ToolTip}" TargetType="{x:Type ToolTip}">
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="Foreground" Value="{StaticResource ErrorPolygonFillBrush}"/>
+                <Setter Property="BorderBrush" Value="Gray"/>
+                <Setter Property="BorderThickness" Value="{StaticResource BaseErrorBorderThickness}"/>
+            </Style>
+        </Style.Resources>
+    </Style>
+
+
+    <Style x:Key="ComboBoxToggleButton" TargetType="ToggleButton">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToggleButton">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="20" />
+                        </Grid.ColumnDefinitions>
+                        <Border
+                          x:Name="Border"
+                          Grid.ColumnSpan="2"
+                          CornerRadius="3"
+                          Background="{StaticResource ComboBoxBackgroundBrush}"
+                          BorderBrush="{StaticResource GreyBrush}"
+                          BorderThickness="{StaticResource BaseBorderThickness}" />
+
+                        <Path
+                            x:Name="Arrow"
+                            Grid.Column="1"
+                            Fill="{StaticResource TextBoxBorderBrush}"
+                            Stroke="{StaticResource TextBoxBorderBrush}"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Data="M 1,1.5 L 4.5,5 L 8,1.5" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <ControlTemplate x:Key="ComboBoxTextBox" TargetType="TextBox">
+        <Border x:Name="PART_ContentHost" Focusable="True" />
+    </ControlTemplate>
+
+    <Style x:Key="BaseComboBoxStyle" TargetType="{x:Type ComboBox}">
+        <Setter Property="Background" Value="{StaticResource TextBoxBackgroundBrush}" />
+        <Setter Property="SnapsToDevicePixels" Value="true" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto" />
+        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto" />
+        <Setter Property="ScrollViewer.CanContentScroll" Value="true" />
+        <Setter Property="FontSize" Value="{StaticResource BaseFontSize}" />
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="Width" Value="{StaticResource BaseTextBoxWidth}" />
+        <Setter Property="Height" Value="{StaticResource BaseTextBoxHeight}" />
+        <Setter Property="Padding" Value="0,-3,0,0" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ComboBox">
+                    <Grid>
+                        <ToggleButton
+                            Cursor="Hand"
+                            Name="ToggleButton"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            Background="{TemplateBinding Background}"
+                            Foreground="{TemplateBinding Foreground}"
+                            Style="{StaticResource ComboBoxToggleButton}"
+                            Grid.Column="2"
+                            Focusable="false"
+                            IsChecked="{Binding Path=IsDropDownOpen,Mode=TwoWay,RelativeSource={RelativeSource TemplatedParent}}"
+                            ClickMode="Press" />
+
+                        <ContentPresenter
+                            Name="ContentSite"
+                            IsHitTestVisible="False"
+                            Content="{TemplateBinding SelectionBoxItem}"
+                            ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
+                            ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
+                            Margin="10,3,30,3" Width="200"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left" />
+                        <TextBox x:Name="PART_EditableTextBox"
+                            Style="{x:Null}"
+                            Template="{StaticResource ComboBoxTextBox}"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Center"
+                            Margin="3,3,23,3"
+                            Focusable="True"
+                            Visibility="Hidden"
+                            IsReadOnly="{TemplateBinding IsReadOnly}" />
+                        <Popup
+                            Name="Popup"
+                            Placement="Bottom"
+                            IsOpen="{TemplateBinding IsDropDownOpen}"
+                            AllowsTransparency="True"
+                            Focusable="False"
+                            PopupAnimation="Slide">
+                            <Grid
+                              Name="DropDown"
+                              SnapsToDevicePixels="True"
+                              MinWidth="{TemplateBinding ActualWidth}"
+                              MaxHeight="{TemplateBinding MaxDropDownHeight}">
+                                <Border
+                                    CornerRadius="1"
+                                    x:Name="DropDownBorder"
+                                    Background="White"
+                                    BorderThickness="1"
+                                    BorderBrush="{StaticResource GreyBrush}" />
+                                <ScrollViewer Margin="1,6,4,6" SnapsToDevicePixels="True">
+                                    <StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Contained" />
+                                </ScrollViewer>
+                            </Grid>
+                        </Popup>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid>
+                        <AdornedElementPlaceholder x:Name="adorner">
+                            <Border BorderBrush="{StaticResource ErrorBorderBrush}"
+                                    BorderThickness="{StaticResource BaseErrorBorderThickness}" />
+                        </AdornedElementPlaceholder>
+                        <Polygon Fill="{StaticResource ErrorPolygonFillBrush}"
+                                 Margin="0,2,2,0"
+                                 Points="10,10 10,0 0,0"
+                                 VerticalAlignment="Top"
+                                 HorizontalAlignment="Right" >
+                        </Polygon>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Resources>
+            <Style x:Key="{x:Type ToolTip}" TargetType="{x:Type ToolTip}">
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="Foreground" Value="{StaticResource ErrorPolygonFillBrush}"/>
+                <Setter Property="BorderBrush" Value="Gray"/>
+                <Setter Property="BorderThickness" Value="{StaticResource BaseErrorBorderThickness}"/>
+            </Style>
+        </Style.Resources>
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="true">
+                <Setter Property="ToolTip" Value="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}"/>
+                <Setter Property="Tag" Value="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}"/>
+            </Trigger>
+        </Style.Triggers>
+
+    </Style>
+
+    <Style x:Key="FocusVisual">
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="OptionMarkFocusVisual">
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Rectangle Margin="14,0,0,0" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="BaseCheckBoxStyle" TargetType="{x:Type CheckBox}">
+        <Style.Resources>
+            <Style x:Key="{x:Type ToolTip}" TargetType="{x:Type ToolTip}">
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="Foreground" Value="{StaticResource ErrorPolygonFillBrush}"/>
+                <Setter Property="BorderBrush" Value="Gray"/>
+                <Setter Property="BorderThickness" Value="{StaticResource BaseErrorBorderThickness}"/>
+            </Style>
+        </Style.Resources>
+        <Setter Property="Foreground" Value="{StaticResource TextBoxLightForegroundBrush}" />
+        <Setter Property="BorderBrush" Value="{StaticResource GreyBrush}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="FontSize" Value="{StaticResource BaseFontSize}"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+        <Setter Property="Background" Value="{StaticResource OptionMark.Static.Background}"/>
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid>
+                        <AdornedElementPlaceholder x:Name="adorner">
+                            <Border BorderBrush="{StaticResource ErrorBorderBrush}"
+                                    BorderThickness="{StaticResource BaseErrorBorderThickness}" />
+                        </AdornedElementPlaceholder>
+                        <Polygon Fill="{StaticResource ErrorPolygonFillBrush}"
+                                 Margin="0,2,2,0"
+                                 Points="10,10 10,0 0,0"
+                                 VerticalAlignment="Top"
+                                 HorizontalAlignment="Right" >
+                        </Polygon>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type CheckBox}">
+                    <Grid x:Name="templateRoot" Background="Transparent" SnapsToDevicePixels="True">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Border x:Name="checkBoxBorder"  Padding="1" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Margin="1">
+                            <Grid x:Name="markGrid">
+                                <Path x:Name="optionMark" Data="F1 M 9.97498,1.22334L 4.6983,9.09834L 4.52164,9.09834L 0,5.19331L 1.27664,3.52165L 4.255,6.08833L 8.33331,1.52588e-005L 9.97498,1.22334 Z " Fill="#00b22d" Margin="1" Opacity="0" Stretch="None"/>
+                                <Rectangle x:Name="indeterminateMark" Fill="#00b22d" Margin="2" Opacity="0"/>
+                            </Grid>
+                        </Border>
+                        <ContentPresenter x:Name="contentPresenter" Grid.Column="1" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="HasContent" Value="true">
+                            <Setter Property="FocusVisualStyle" Value="{StaticResource OptionMarkFocusVisual}"/>
+                            <Setter Property="Padding" Value="4,-1,0,0"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Background" TargetName="checkBoxBorder" Value="{StaticResource OptionMark.Disabled.Background}"/>
+                            <Setter Property="BorderBrush" TargetName="checkBoxBorder" Value="{StaticResource OptionMark.Disabled.Border}"/>
+                            <Setter Property="Fill" TargetName="optionMark" Value="#00b22d"/>
+                            <Setter Property="Fill" TargetName="indeterminateMark" Value="#00b22d"/>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="true">
+                            <Setter Property="Opacity" TargetName="optionMark" Value="1"/>
+                            <Setter Property="Opacity" TargetName="indeterminateMark" Value="0"/>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="{x:Null}">
+                            <Setter Property="Opacity" TargetName="optionMark" Value="0"/>
+                            <Setter Property="Opacity" TargetName="indeterminateMark" Value="1"/>
+                        </Trigger>
+                        <Trigger Property="Validation.HasError" Value="true">
+                            <Setter Property="ToolTip" Value="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}"/>
+                            <Setter Property="Tag" Value="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}"/>
+
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="{x:Type DatePicker}"
+           x:Key="BaseDatePickerStyle">
+        <Setter Property="Width"
+                Value="{StaticResource BaseTextBoxWidth}" />
+        <Setter Property="Padding"
+                Value="3" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Focusable"
+                Value="True" />
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid>
+                        <AdornedElementPlaceholder x:Name="adorner">
+                            <Border BorderBrush="{StaticResource ErrorBorderBrush}"
+                                    BorderThickness="{StaticResource BaseErrorBorderThickness}" />
+                        </AdornedElementPlaceholder>
+                        <Polygon Fill="{StaticResource ErrorPolygonFillBrush}"
+                                 Margin="0,2,2,0"
+                                 Points="10,10 10,0 0,0"
+                                 VerticalAlignment="Top"
+                                 HorizontalAlignment="Right" >
+                        </Polygon>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+        <Style.Resources>
+            <Style TargetType="{x:Type Border}">
+                <Setter Property="CornerRadius"
+                        Value="1" />
+                <Setter Property="BorderBrush"
+                        Value="{StaticResource GreyBrush}" />
+            </Style>
+
+            <Style x:Key="{x:Type ToolTip}" TargetType="{x:Type ToolTip}">
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="Foreground" Value="{StaticResource ErrorPolygonFillBrush}"/>
+                <Setter Property="BorderBrush" Value="Gray"/>
+                <Setter Property="BorderThickness" Value="{StaticResource BaseErrorBorderThickness}"/>
+            </Style>
+        </Style.Resources>
+
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="true">
+                <Setter Property="ToolTip" Value="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}"/>
+                <Setter Property="Tag" Value="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}"/>
+            </Trigger>
+        </Style.Triggers>
+
+    </Style>
+
+</ResourceDictionary>

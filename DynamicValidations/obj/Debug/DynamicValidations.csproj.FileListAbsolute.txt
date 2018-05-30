@@ -1,0 +1,15 @@
+c:\users\amrutha.kombatti\documents\visual studio 2017\Projects\DynamicValidations\DynamicValidations\bin\Debug\DynamicValidations.exe.config
+c:\users\amrutha.kombatti\documents\visual studio 2017\Projects\DynamicValidations\DynamicValidations\bin\Debug\DynamicValidations.exe
+c:\users\amrutha.kombatti\documents\visual studio 2017\Projects\DynamicValidations\DynamicValidations\bin\Debug\DynamicValidations.pdb
+c:\users\amrutha.kombatti\documents\visual studio 2017\Projects\DynamicValidations\DynamicValidations\obj\Debug\DynamicValidations.csprojResolveAssemblyReference.cache
+c:\users\amrutha.kombatti\documents\visual studio 2017\Projects\DynamicValidations\DynamicValidations\obj\Debug\MainWindow.g.cs
+c:\users\amrutha.kombatti\documents\visual studio 2017\Projects\DynamicValidations\DynamicValidations\obj\Debug\App.g.cs
+c:\users\amrutha.kombatti\documents\visual studio 2017\Projects\DynamicValidations\DynamicValidations\obj\Debug\DynamicValidations_MarkupCompile.cache
+c:\users\amrutha.kombatti\documents\visual studio 2017\Projects\DynamicValidations\DynamicValidations\obj\Debug\DynamicValidations_MarkupCompile.lref
+c:\users\amrutha.kombatti\documents\visual studio 2017\Projects\DynamicValidations\DynamicValidations\obj\Debug\MainWindow.baml
+c:\users\amrutha.kombatti\documents\visual studio 2017\Projects\DynamicValidations\DynamicValidations\obj\Debug\DynamicValidations.g.resources
+c:\users\amrutha.kombatti\documents\visual studio 2017\Projects\DynamicValidations\DynamicValidations\obj\Debug\DynamicValidations.Properties.Resources.resources
+c:\users\amrutha.kombatti\documents\visual studio 2017\Projects\DynamicValidations\DynamicValidations\obj\Debug\DynamicValidations.csproj.GenerateResource.Cache
+c:\users\amrutha.kombatti\documents\visual studio 2017\Projects\DynamicValidations\DynamicValidations\obj\Debug\DynamicValidations.exe
+c:\users\amrutha.kombatti\documents\visual studio 2017\Projects\DynamicValidations\DynamicValidations\obj\Debug\DynamicValidations.pdb
+c:\users\amrutha.kombatti\documents\visual studio 2017\Projects\DynamicValidations\DynamicValidations\obj\Debug\ControlStyles.baml
